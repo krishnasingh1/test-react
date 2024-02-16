@@ -1,6 +1,7 @@
 import React, {useState, useEffect}  from 'react';
 import logo from './logo.svg';
 import './App.css';
+import UseContext from './components/UseContext';
 
 function App() {
     const [bgColor, setBgColor] = useState("");
@@ -29,6 +30,7 @@ function App() {
         <Car1/>
         <Timer/>
         <Counter/>
+        <UseContext/>
       </header>
 
     </div>
