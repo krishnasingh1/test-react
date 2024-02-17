@@ -1,5 +1,5 @@
 import {useState, createContext, useContext } from "react";
-import App from "../App";
+
 
 const UserContext = createContext();
 function UseContext() {
@@ -11,7 +11,7 @@ function UseContext() {
         <UserContext.Provider  value={user}>
             <h1>{`Hello ${user}!`}</h1>
             <Component1 />
-            <App/>
+            
 
 
         </UserContext.Provider>
